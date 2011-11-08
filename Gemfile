@@ -11,6 +11,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+end
+
 gem 'jquery-rails'
 
 gem 'mercury-rails', git: 'https://github.com/jejacks0n/mercury.git', ref: 'a2b16bcdc9'
