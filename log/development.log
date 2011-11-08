@@ -6040,3 +6040,11 @@ Served asset /pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 10:29:15 -0800
 Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury.css?body=1" for 127.0.0.1 at 2011-11-08 11:07:24 -0800
+Served asset /mercury.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/mercury.css?body=1" for 127.0.0.1 at 2011-11-08 11:07:39 -0800
+Served asset /mercury/mercury.css - 304 Not Modified (0ms)
