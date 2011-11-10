@@ -1,7 +1,9 @@
 --- 
 rails.png: rails-e4b51606cd77fda2615e7439907bfc92.png
 application.js: application-55cd299d6f8fe22d8853de1220f2c546.js
+mercury.js: mercury-2b831b35658984d64c423ccd30007d73.js
 application.css: application-84b41e5cae133ffdc4c84cecf1d69d6f.css
+mercury_overrides.css: mercury_overrides-5abe0c7cbb8f2af4c71fe9bba90f7746.css
 mercury/button.png: mercury/button-9e94db295743cfc7c579aa3a92576384.png
 mercury/close.png: mercury/close-aa077b601d41f54929403671eabb91f4.png
 mercury/default-snippet.png: mercury/default-snippet-5b54e36791418e7759c436de0bf66f68.png
@@ -25,3 +27,4 @@ mercury/toolbar/primary/save.png: mercury/toolbar/primary/save-6b24721c24684f8cf
 mercury/toolbar/primary/snippetpanel.png: mercury/toolbar/primary/snippetpanel-a5dd03287b638d1929ccaf0584158d5a.png
 mercury/toolbar/primary/undo.png: mercury/toolbar/primary/undo-0e403dcc0dedf0e9f4b2ed06825be545.png
 mercury/toolbar/snippetable/buttons.png: mercury/toolbar/snippetable/buttons-fbc8b69eb2e2220f2142a16acbeb4fdd.png
+mercury.css: mercury-77faffec61796fcf3530f33b2e6ddd2f.css
