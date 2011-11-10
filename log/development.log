@@ -6048,3 +6048,2028 @@ Served asset /mercury.css - 304 Not Modified (0ms)
 
 Started GET "/assets/mercury/mercury.css?body=1" for 127.0.0.1 at 2011-11-08 11:07:39 -0800
 Served asset /mercury/mercury.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-08 11:54:41 -0800
+  Processing by PagesController#index as HTML
+  [1m[36mPage Load (24.2ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 151ms (Views: 124.5ms | ActiveRecord: 24.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:42 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:42 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:42 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:42 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:42 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 11:54:44 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:45 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:45 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:45 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:45 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:45 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/editor/pages/1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+  Processing by MercuryController#edit as HTML
+  Parameters: {"requested_uri"=>"pages/1"}
+Rendered text template within layouts/mercury (0.0ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury/lightview.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/lightview.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialog.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dialog.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modal.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/modal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/statusbar.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/statusbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/uploader.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/uploader.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-1.6.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dependencies/jquery-1.6.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/tooltip.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/tooltip.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/toolbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/dependencies/liquidmetal.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dependencies/liquidmetal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.additions.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dependencies/jquery.additions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.htmlClean.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dependencies/jquery.htmlClean.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-ui-1.8.13.custom.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dependencies/jquery-ui-1.8.13.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/showdown.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dependencies/showdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/mercury.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/native_extensions.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/native_extensions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/page_editor.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/page_editor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/history_buffer.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/history_buffer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/palette.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/palette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/table_editor.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/table_editor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialog.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/dialog.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/select.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modal.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/panel.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/panel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/lightview.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:47 -0800
+Served asset /mercury/lightview.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/statusbar.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/statusbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/toolbar.button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/toolbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.expander.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/toolbar.expander.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button_group.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/toolbar.button_group.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/tooltip.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/snippet.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/snippet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/snippet_toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/snippet_toolbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/region.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/region.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/uploader.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/uploader.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/editable.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/regions/editable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/markupable.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/regions/markupable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/snippetable.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/regions/snippetable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/backcolor.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/dialogs/backcolor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/forecolor.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/dialogs/forecolor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/objectspanel.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/dialogs/objectspanel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/formatblock.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/dialogs/formatblock.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/htmleditor.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/modals/htmleditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertsnippet.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/modals/insertsnippet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertcharacter.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/modals/insertcharacter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/inserttable.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/modals/inserttable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertmedia.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/modals/insertmedia.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/style.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/dialogs/style.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertlink.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/modals/insertlink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/finalize.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury/finalize.js - 304 Not Modified (0ms)
+
+
+Started GET "/mercury/selects/style.html" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"style"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/style.html (0.1ms)
+Completed 200 OK in 65ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (50.7ms)
+Completed 200 OK in 69ms (Views: 64.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/mercury/palettes/backcolor.html" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"backcolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/backcolor.html (0.1ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/formatblock.html" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"formatblock"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/formatblock.html (0.1ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/forecolor.html" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"forecolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/forecolor.html (0.1ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:48 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:49 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:49 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 11:54:49 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 11:54:49 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-08 11:58:14 -0800
+  Processing by PagesController#index as HTML
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" 
+Rendered pages/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:14 -0800
+Served asset /jquery.js - 200 OK (51ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:14 -0800
+Served asset /pages.css - 200 OK (10ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:14 -0800
+Served asset /mercury_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:14 -0800
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:14 -0800
+Served asset /pages.js - 200 OK (3ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 11:58:17 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" 
+Rendered pages/show.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 38ms (Views: 32.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:17 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:17 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:17 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:17 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:17 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/editor/pages/1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+  Processing by MercuryController#edit as HTML
+  Parameters: {"requested_uri"=>"pages/1"}
+Rendered text template within layouts/mercury (0.0ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury/dialog.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/dialog.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/lightview.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/lightview.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modal.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/modal.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/statusbar.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/statusbar.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/uploader.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/uploader.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-1.6.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/dependencies/jquery-1.6.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/tooltip.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/tooltip.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/toolbar.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury.js - 200 OK (5ms)
+
+
+Started GET "/assets/mercury/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:20 -0800
+Served asset /mercury/mercury.js - 200 OK (13ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.additions.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dependencies/jquery.additions.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/liquidmetal.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dependencies/liquidmetal.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.htmlClean.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dependencies/jquery.htmlClean.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/table_editor.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/table_editor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/showdown.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dependencies/showdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/page_editor.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/page_editor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-ui-1.8.13.custom.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dependencies/jquery-ui-1.8.13.custom.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/history_buffer.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/history_buffer.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/native_extensions.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/native_extensions.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialog.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dialog.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/palette.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/palette.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/select.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/select.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/panel.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/panel.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modal.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button_group.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/toolbar.button_group.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/statusbar.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/statusbar.js - 200 OK (1ms)
+
+
+Started GET "/assets/mercury/toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/toolbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/toolbar.button.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/lightview.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/lightview.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/tooltip.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/snippet.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/snippet.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.expander.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/toolbar.expander.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/snippet_toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/snippet_toolbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/region.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/region.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/regions/markupable.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/regions/markupable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/regions/editable.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/regions/editable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/formatblock.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dialogs/formatblock.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/backcolor.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dialogs/backcolor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/uploader.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/uploader.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/regions/snippetable.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/regions/snippetable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/forecolor.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dialogs/forecolor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertcharacter.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modals/insertcharacter.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/style.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dialogs/style.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/objectspanel.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/dialogs/objectspanel.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/htmleditor.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modals/htmleditor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertsnippet.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modals/insertsnippet.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertmedia.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modals/insertmedia.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertlink.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modals/insertlink.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/inserttable.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/modals/inserttable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/finalize.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+Served asset /mercury/finalize.js - 200 OK (0ms)
+
+
+Started GET "/mercury/selects/style.html" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"style"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/style.html (0.1ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/formatblock.html" for 127.0.0.1 at 2011-11-08 11:58:21 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"formatblock"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/formatblock.html (0.1ms)
+Completed 200 OK in 147ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" 
+Rendered pages/show.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/mercury/palettes/forecolor.html" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"forecolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/forecolor.html (0.1ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/backcolor.html" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"backcolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/backcolor.html (0.1ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 11:58:22 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 11:58:33 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00000104123ab8 @original_filename="undefined", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"undefined\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-26s5cn>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-15szqdo[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-15szqdo[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-15szqdo20111108-63179-1g4nw72'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-15szqdo[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-15szqdo[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-15szqdo20111108-63179-hxplwf'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 08 Nov 2011 19:58:36 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "undefined"], ["image_file_size", 1315], ["image_updated_at", Tue, 08 Nov 2011 19:58:34 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 19:58:36 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/1/original/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/1/medium/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/1/thumb/undefined
+Completed 201 Created in 2153ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 11:58:55 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x000001044274d0 @original_filename="undefined", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"undefined\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-sg9vbe>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-dawb41[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-dawb41[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-dawb4120111108-63179-vrxipz'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-dawb41[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-dawb41[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-dawb4120111108-63179-1gjhtmc'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Tue, 08 Nov 2011 19:58:56 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "undefined"], ["image_file_size", 1315], ["image_updated_at", Tue, 08 Nov 2011 19:58:55 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 19:58:56 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/2/original/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/2/medium/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/2/thumb/undefined
+Completed 201 Created in 440ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-08 12:01:32 -0800
+  Processing by PagesController#index as HTML
+  [1m[36mPage Load (157.1ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 920ms (Views: 760.4ms | ActiveRecord: 157.5ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:35 -0800
+Served asset /mercury_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:35 -0800
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:35 -0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:35 -0800
+Served asset /pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:36 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 12:01:44 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 104ms (Views: 101.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:44 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/editor/pages/1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+  Processing by MercuryController#edit as HTML
+  Parameters: {"requested_uri"=>"pages/1"}
+Rendered text template within layouts/mercury (0.0ms)
+Completed 200 OK in 142ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury/dialog.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/dialog.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modal.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/modal.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/lightview.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/lightview.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/statusbar.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/statusbar.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/toolbar.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury.js - 200 OK (5ms)
+
+
+Started GET "/assets/mercury/uploader.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/uploader.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-1.6.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/dependencies/jquery-1.6.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/tooltip.css?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/tooltip.css - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-ui-1.8.13.custom.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/dependencies/jquery-ui-1.8.13.custom.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.additions.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:47 -0800
+Served asset /mercury/dependencies/jquery.additions.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.htmlClean.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:48 -0800
+Served asset /mercury/dependencies/jquery.htmlClean.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dependencies/liquidmetal.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:48 -0800
+Served asset /mercury/dependencies/liquidmetal.js - 200 OK (1ms)
+
+
+Started GET "/assets/mercury/dependencies/showdown.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:48 -0800
+Served asset /mercury/dependencies/showdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:48 -0800
+Served asset /mercury/mercury.js - 200 OK (3ms)
+
+
+Started GET "/assets/mercury/history_buffer.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:49 -0800
+Served asset /mercury/history_buffer.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/page_editor.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:49 -0800
+Served asset /mercury/page_editor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/native_extensions.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:49 -0800
+Served asset /mercury/native_extensions.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/table_editor.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:49 -0800
+Served asset /mercury/table_editor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/palette.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:49 -0800
+Served asset /mercury/palette.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialog.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:49 -0800
+Served asset /mercury/dialog.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/select.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/select.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modal.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/panel.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/panel.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/lightview.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/lightview.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/statusbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/statusbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/toolbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/toolbar.button.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/tooltip.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.expander.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/toolbar.expander.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button_group.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:50 -0800
+Served asset /mercury/toolbar.button_group.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/snippet.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/snippet.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/snippet_toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/snippet_toolbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/region.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/region.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/regions/markupable.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/regions/markupable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/uploader.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/uploader.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/regions/editable.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/regions/editable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/backcolor.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/dialogs/backcolor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/regions/snippetable.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/regions/snippetable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/formatblock.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/dialogs/formatblock.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/forecolor.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/dialogs/forecolor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/objectspanel.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/dialogs/objectspanel.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/dialogs/style.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/dialogs/style.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/htmleditor.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/modals/htmleditor.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertcharacter.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/modals/insertcharacter.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertsnippet.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/modals/insertsnippet.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertlink.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/modals/insertlink.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/insertmedia.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/modals/insertmedia.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/modals/inserttable.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/modals/inserttable.js - 200 OK (0ms)
+
+
+Started GET "/assets/mercury/finalize.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:51 -0800
+Served asset /mercury/finalize.js - 200 OK (0ms)
+
+
+Started GET "/mercury/selects/style.html" for 127.0.0.1 at 2011-11-08 12:01:53 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"style"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/style.html (0.1ms)
+Completed 200 OK in 305ms (Views: 304.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/formatblock.html" for 127.0.0.1 at 2011-11-08 12:01:53 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"formatblock"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/formatblock.html (0.1ms)
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/backcolor.html" for 127.0.0.1 at 2011-11-08 12:01:53 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"backcolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/backcolor.html (0.1ms)
+Completed 200 OK in 140ms (Views: 139.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/forecolor.html" for 127.0.0.1 at 2011-11-08 12:01:53 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"forecolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/forecolor.html (3.1ms)
+Completed 200 OK in 492ms (Views: 491.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 12:01:54 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 54ms (Views: 45.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 12:01:54 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 12:02:02 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000010444c7a8 @original_filename="1.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"1.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-zf17fr>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1kp743n.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1kp743n.png[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1kp743n20111108-63179-1s960u9'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1kp743n.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1kp743n.png[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1kp743n20111108-63179-1a8k9ph'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[35mSQL (139.5ms)[0m  INSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Tue, 08 Nov 2011 20:02:06 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "1.png"], ["image_file_size", 1315], ["image_updated_at", Tue, 08 Nov 2011 20:02:02 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 20:02:06 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/3/original/1.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/3/medium/1.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/3/thumb/1.png
+Completed 201 Created in 4597ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 12:02:55 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" 
+Rendered pages/show.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 130ms (Views: 49.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 12:02:56 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 12:02:56 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 12:02:56 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 12:02:56 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 12:02:56 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 12:04:13 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x000001043f7b18 @original_filename="1.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"1.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-p2cino>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1lj83ws.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1lj83ws.png[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1lj83ws20111108-63179-ge39jg'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1lj83ws.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1lj83ws.png[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-1lj83ws20111108-63179-1x5iroo'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[36mSQL (18.9ms)[0m  [1mINSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 08 Nov 2011 20:04:15 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "1.png"], ["image_file_size", 1315], ["image_updated_at", Tue, 08 Nov 2011 20:04:13 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 20:04:15 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/4/original/1.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/4/medium/1.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/4/thumb/1.png
+Completed 201 Created in 1768ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 12:05:41 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00000106937ec8 @original_filename="5.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"5.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-1s8ntbu>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-9xmguu.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-9xmguu.png[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-9xmguu20111108-63179-ghpsf6'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-9xmguu.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-9xmguu.png[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-9xmguu20111108-63179-tfzeq2'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Tue, 08 Nov 2011 20:05:42 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "5.png"], ["image_file_size", 2014], ["image_updated_at", Tue, 08 Nov 2011 20:05:41 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 20:05:42 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/5/original/5.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/5/medium/5.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/5/thumb/5.png
+Completed 201 Created in 1266ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/editor/pages/1" for 127.0.0.1 at 2011-11-08 12:06:23 -0800
+  Processing by MercuryController#edit as HTML
+  Parameters: {"requested_uri"=>"pages/1"}
+Rendered text template within layouts/mercury (0.0ms)
+Completed 200 OK in 175ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury/dialog.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:23 -0800
+Served asset /mercury/dialog.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/lightview.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:23 -0800
+Served asset /mercury/lightview.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modal.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:23 -0800
+Served asset /mercury/modal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/statusbar.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:23 -0800
+Served asset /mercury/statusbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:23 -0800
+Served asset /mercury/toolbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/uploader.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/uploader.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/tooltip.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/tooltip.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-1.6.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dependencies/jquery-1.6.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-ui-1.8.13.custom.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dependencies/jquery-ui-1.8.13.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.additions.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dependencies/jquery.additions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.htmlClean.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dependencies/jquery.htmlClean.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/liquidmetal.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dependencies/liquidmetal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/showdown.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dependencies/showdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/mercury.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/dialog.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dialog.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/table_editor.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/table_editor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/page_editor.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/page_editor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/history_buffer.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/history_buffer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/lightview.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/lightview.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/select.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/toolbar.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mercury/panel.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/panel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/native_extensions.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/native_extensions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/palette.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/palette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/statusbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/statusbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modal.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/toolbar.button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button_group.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/toolbar.button_group.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.expander.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/toolbar.expander.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/snippet.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/snippet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/tooltip.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/snippet_toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/snippet_toolbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/region.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/region.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/uploader.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/uploader.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/editable.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/regions/editable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/markupable.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/regions/markupable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/snippetable.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/regions/snippetable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/backcolor.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dialogs/backcolor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/forecolor.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dialogs/forecolor.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mercury/dialogs/formatblock.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dialogs/formatblock.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/style.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dialogs/style.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertcharacter.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modals/insertcharacter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/htmleditor.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modals/htmleditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/objectspanel.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/dialogs/objectspanel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertlink.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modals/insertlink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertmedia.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modals/insertmedia.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertsnippet.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modals/insertsnippet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/inserttable.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/modals/inserttable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/finalize.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:24 -0800
+Served asset /mercury/finalize.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 12:06:25 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (2.9ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" 
+Rendered pages/show.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 80ms (Views: 74.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/mercury/selects/formatblock.html" for 127.0.0.1 at 2011-11-08 12:06:25 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"formatblock"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/formatblock.html (0.1ms)
+Completed 200 OK in 154ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/backcolor.html" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"backcolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/backcolor.html (0.1ms)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/forecolor.html" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"forecolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/forecolor.html (0.1ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/style.html" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"style"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/style.html (0.1ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 12:06:26 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 12:06:31 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x000001068b8768 @original_filename="undefined", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"undefined\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-x7xf8u>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-q9vr2t[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-q9vr2t[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-q9vr2t20111108-63179-1b066us'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-q9vr2t[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-q9vr2t[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-q9vr2t20111108-63179-8zg2j5'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 08 Nov 2011 20:06:32 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "undefined"], ["image_file_size", 1724], ["image_updated_at", Tue, 08 Nov 2011 20:06:31 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 20:06:32 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/6/original/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/6/medium/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/6/thumb/undefined
+Completed 201 Created in 742ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 12:07:39 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x0000010432c468 @original_filename="undefined", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"undefined\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-17avm18>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-avgrtq[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-avgrtq[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-avgrtq20111108-63179-121c48f'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-avgrtq[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-avgrtq[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-avgrtq20111108-63179-du0d7p'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[35mSQL (4.2ms)[0m  INSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Tue, 08 Nov 2011 20:07:40 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "undefined"], ["image_file_size", 2185], ["image_updated_at", Tue, 08 Nov 2011 20:07:39 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 20:07:40 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/7/original/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/7/medium/undefined
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/7/thumb/undefined
+Completed 201 Created in 1618ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2011-11-08 12:08:21 -0800
+  Processing by ImagesController#create as JSON
+  Parameters: {"image"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00000104441588 @original_filename="2.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"image[image]\"; filename=\"2.png\"\r\nContent-Type: image/png\r\nContent-Transfer-Encoding: binary\r\n", @tempfile=#<File:/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/RackMultipart20111108-63179-1l5fu6r>>}}
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-70xcjl.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-70xcjl.png[0]' -resize "300x300>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-70xcjl20111108-63179-8lwsmb'
+[32mCommand[0m :: identify -format %wx%h '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-70xcjl.png[0]'
+[32mCommand[0m :: convert '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-70xcjl.png[0]' -resize "100x100>" '/var/folders/sw/mtgmsqcn3z56kfm139cs7lwc000120/T/stream20111108-63179-70xcjl20111108-63179-1hvxto9'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO "images" ("created_at", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 08 Nov 2011 20:08:21 UTC +00:00], ["image_content_type", "image/png"], ["image_file_name", "2.png"], ["image_file_size", 1825], ["image_updated_at", Tue, 08 Nov 2011 20:08:21 UTC +00:00], ["updated_at", Tue, 08 Nov 2011 20:08:21 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/8/original/2.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/8/medium/2.png
+[paperclip] saving /Users/rafe/workspace/rails_projects/mercury/public/system/images/8/thumb/2.png
+Completed 201 Created in 312ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/editor/pages/1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+  Processing by MercuryController#edit as HTML
+  Parameters: {"requested_uri"=>"pages/1"}
+Rendered text template within layouts/mercury (0.0ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury/lightview.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/lightview.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialog.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dialog.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/statusbar.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/statusbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modal.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/modal.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/toolbar.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/tooltip.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/tooltip.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/uploader.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/uploader.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-1.6.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dependencies/jquery-1.6.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.additions.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dependencies/jquery.additions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.htmlClean.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dependencies/jquery.htmlClean.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-ui-1.8.13.custom.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dependencies/jquery-ui-1.8.13.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/liquidmetal.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dependencies/liquidmetal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/showdown.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/dependencies/showdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/mercury.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:14 -0800
+Served asset /mercury/mercury.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/page_editor.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/page_editor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/history_buffer.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/history_buffer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/table_editor.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/table_editor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialog.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/dialog.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/native_extensions.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/native_extensions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/palette.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/palette.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/select.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modal.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/panel.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/panel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/lightview.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/lightview.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/statusbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/statusbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/toolbar.button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/toolbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.button_group.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/toolbar.button_group.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/tooltip.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/toolbar.expander.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/toolbar.expander.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/snippet_toolbar.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/snippet_toolbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/snippet.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/snippet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/region.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/region.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/uploader.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/uploader.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/backcolor.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/dialogs/backcolor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/markupable.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/regions/markupable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/snippetable.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/regions/snippetable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/regions/editable.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/regions/editable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/forecolor.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/dialogs/forecolor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/objectspanel.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/dialogs/objectspanel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/formatblock.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/dialogs/formatblock.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dialogs/style.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/dialogs/style.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/htmleditor.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modals/htmleditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertlink.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modals/insertlink.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/inserttable.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modals/inserttable.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertmedia.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modals/insertmedia.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertsnippet.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modals/insertsnippet.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/modals/insertcharacter.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/modals/insertcharacter.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/finalize.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+Served asset /mercury/finalize.js - 304 Not Modified (0ms)
+
+
+Started GET "/mercury/palettes/backcolor.html" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"backcolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/backcolor.html (0.4ms)
+Completed 200 OK in 62ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-08 12:11:15 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 49ms (Views: 45.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/mercury/palettes/forecolor.html" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"forecolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/forecolor.html (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/style.html" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"style"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/style.html (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/formatblock.html" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"formatblock"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/formatblock.html (0.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-08 12:11:16 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-10 12:04:30 -0800
+  Processing by PagesController#index as HTML
+  [1m[36mPage Load (15.7ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/index.html.erb within layouts/application (23.2ms)
+Compiled application.css  (15ms)  (pid 7438)
+Compiled mercury_overrides.css  (14ms)  (pid 7438)
+Compiled pages.css  (43ms)  (pid 7438)
+Compiled application.js  (46ms)  (pid 7438)
+Compiled jquery.js  (19ms)  (pid 7438)
+Compiled jquery_ujs.js  (1ms)  (pid 7438)
+Compiled pages.js  (319ms)  (pid 7438)
+Completed 200 OK in 845ms (Views: 827.8ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:32 -0800
+Served asset /jquery.js - 200 OK (67ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:32 -0800
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:32 -0800
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:32 -0800
+Served asset /pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:32 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-10 12:04:35 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 75ms (Views: 71.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:35 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:35 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:35 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/editor/pages/1" for 127.0.0.1 at 2011-11-10 12:04:38 -0800
+  Processing by MercuryController#edit as HTML
+  Parameters: {"requested_uri"=>"pages/1"}
+Rendered text template within layouts/mercury (0.0ms)
+Compiled mercury.css  (37ms)  (pid 7438)
+Compiled mercury/mercury.css  (10ms)  (pid 7438)
+Compiled mercury/dialog.css  (0ms)  (pid 7438)
+Compiled mercury/lightview.css  (0ms)  (pid 7438)
+Compiled mercury/modal.css  (0ms)  (pid 7438)
+Compiled mercury/statusbar.css  (0ms)  (pid 7438)
+Compiled mercury/toolbar.css  (0ms)  (pid 7438)
+Compiled mercury/tooltip.css  (0ms)  (pid 7438)
+Compiled mercury/uploader.css  (1ms)  (pid 7438)
+Compiled mercury.js  (20ms)  (pid 7438)
+Compiled mercury/dependencies/jquery-1.6.js  (24ms)  (pid 7438)
+Compiled mercury/mercury.js  (184ms)  (pid 7438)
+Compiled mercury/dependencies/jquery-ui-1.8.13.custom.js  (1ms)  (pid 7438)
+Compiled mercury/dependencies/jquery.additions.js  (0ms)  (pid 7438)
+Compiled mercury/dependencies/jquery.htmlClean.js  (1ms)  (pid 7438)
+Compiled mercury/dependencies/liquidmetal.js  (1ms)  (pid 7438)
+Compiled mercury/dependencies/showdown.js  (2ms)  (pid 7438)
+Compiled mercury/native_extensions.js  (130ms)  (pid 7438)
+Compiled mercury/page_editor.js  (432ms)  (pid 7438)
+Compiled mercury/history_buffer.js  (179ms)  (pid 7438)
+Compiled mercury/table_editor.js  (711ms)  (pid 7438)
+Compiled mercury/dialog.js  (173ms)  (pid 7438)
+Compiled mercury/palette.js  (202ms)  (pid 7438)
+Compiled mercury/select.js  (191ms)  (pid 7438)
+Compiled mercury/panel.js  (189ms)  (pid 7438)
+Compiled mercury/modal.js  (359ms)  (pid 7438)
+Compiled mercury/lightview.js  (356ms)  (pid 7438)
+Compiled mercury/statusbar.js  (268ms)  (pid 7438)
+Compiled mercury/toolbar.js  (206ms)  (pid 7438)
+Compiled mercury/toolbar.button.js  (366ms)  (pid 7438)
+Compiled mercury/toolbar.button_group.js  (133ms)  (pid 7438)
+Compiled mercury/toolbar.expander.js  (151ms)  (pid 7438)
+Compiled mercury/tooltip.js  (142ms)  (pid 7438)
+Compiled mercury/snippet.js  (195ms)  (pid 7438)
+Compiled mercury/snippet_toolbar.js  (148ms)  (pid 7438)
+Compiled mercury/region.js  (206ms)  (pid 7438)
+Compiled mercury/uploader.js  (515ms)  (pid 7438)
+Compiled mercury/regions/editable.js  (2452ms)  (pid 7438)
+Compiled mercury/regions/markupable.js  (1109ms)  (pid 7438)
+Compiled mercury/regions/snippetable.js  (209ms)  (pid 7438)
+Compiled mercury/dialogs/backcolor.js  (130ms)  (pid 7438)
+Compiled mercury/dialogs/forecolor.js  (202ms)  (pid 7438)
+Compiled mercury/dialogs/formatblock.js  (109ms)  (pid 7438)
+Compiled mercury/dialogs/objectspanel.js  (114ms)  (pid 7438)
+Compiled mercury/dialogs/style.js  (104ms)  (pid 7438)
+Compiled mercury/modals/htmleditor.js  (169ms)  (pid 7438)
+Compiled mercury/modals/insertcharacter.js  (105ms)  (pid 7438)
+Compiled mercury/modals/insertlink.js  (222ms)  (pid 7438)
+Compiled mercury/modals/insertmedia.js  (246ms)  (pid 7438)
+Compiled mercury/modals/insertsnippet.js  (244ms)  (pid 7438)
+Compiled mercury/modals/inserttable.js  (192ms)  (pid 7438)
+Compiled mercury/finalize.js  (151ms)  (pid 7438)
+Completed 200 OK in 12626ms (Views: 12625.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mercury/dialog.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialog.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/mercury/lightview.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/lightview.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/modal.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modal.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mercury/statusbar.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/statusbar.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/mercury/toolbar.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/toolbar.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mercury/tooltip.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/tooltip.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-1.6.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dependencies/jquery-1.6.js - 200 OK (11ms)
+
+
+Started GET "/assets/mercury/uploader.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/uploader.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mercury.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury.js - 200 OK (5ms)
+
+
+Started GET "/assets/mercury/dependencies/liquidmetal.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dependencies/liquidmetal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery-ui-1.8.13.custom.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dependencies/jquery-ui-1.8.13.custom.js - 200 OK (35ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.htmlClean.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dependencies/jquery.htmlClean.js - 200 OK (5ms)
+
+
+Started GET "/assets/mercury/dependencies/jquery.additions.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dependencies/jquery.additions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/native_extensions.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/native_extensions.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/mercury/mercury.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/mercury.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/mercury/dependencies/showdown.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dependencies/showdown.js - 200 OK (5ms)
+
+
+Started GET "/assets/mercury/page_editor.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/page_editor.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/history_buffer.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/history_buffer.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mercury/table_editor.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/table_editor.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/dialog.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialog.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mercury/palette.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/palette.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/panel.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/panel.js - 200 OK (4ms)
+
+
+Started GET "/assets/mercury/select.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/select.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/modal.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modal.js - 200 OK (12ms)
+
+
+Started GET "/assets/mercury/lightview.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/lightview.js - 200 OK (6ms)
+
+
+Started GET "/assets/mercury/statusbar.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/statusbar.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/toolbar.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/toolbar.js - 200 OK (5ms)
+
+
+Started GET "/assets/mercury/toolbar.button.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/toolbar.button.js - 200 OK (10ms)
+
+
+Started GET "/assets/mercury/toolbar.button_group.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/toolbar.button_group.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/toolbar.expander.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/toolbar.expander.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mercury/snippet.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/snippet.js - 200 OK (6ms)
+
+
+Started GET "/assets/mercury/tooltip.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/snippet_toolbar.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/snippet_toolbar.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/mercury/region.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/region.js - 200 OK (3ms)
+
+
+Started GET "/assets/mercury/uploader.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/uploader.js - 200 OK (11ms)
+
+
+Started GET "/assets/mercury/regions/editable.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/regions/editable.js - 200 OK (6ms)
+
+
+Started GET "/assets/mercury/regions/markupable.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/regions/markupable.js - 200 OK (12ms)
+
+
+Started GET "/assets/mercury/regions/snippetable.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/regions/snippetable.js - 200 OK (13ms)
+
+
+Started GET "/assets/mercury/dialogs/backcolor.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialogs/backcolor.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mercury/dialogs/forecolor.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialogs/forecolor.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/dialogs/formatblock.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialogs/formatblock.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/dialogs/objectspanel.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialogs/objectspanel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/dialogs/style.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/dialogs/style.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mercury/modals/htmleditor.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modals/htmleditor.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mercury/modals/insertcharacter.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modals/insertcharacter.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mercury/modals/insertlink.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modals/insertlink.js - 200 OK (3ms)
+
+
+Started GET "/assets/mercury/modals/insertmedia.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modals/insertmedia.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/modals/insertsnippet.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modals/insertsnippet.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mercury/modals/inserttable.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/modals/inserttable.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mercury/finalize.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:51 -0800
+Served asset /mercury/finalize.js - 304 Not Modified (4ms)
+
+
+Started GET "/mercury/palettes/backcolor.html" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"backcolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/backcolor.html (0.6ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/formatblock.html" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"formatblock"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/formatblock.html (0.5ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/selects/style.html" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"selects", "resource"=>"style"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/selects/style.html (0.4ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mercury/palettes/forecolor.html" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+  Processing by MercuryController#resource as HTML
+  Parameters: {"type"=>"palettes", "resource"=>"forecolor"}
+Rendered /Users/rafe/.rvm/gems/ruby-1.9.2-p180/bundler/gems/mercury-a2b16bcdc96f/app/views/mercury/palettes/forecolor.html (0.5ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages" [0m
+Rendered pages/show.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 74ms (Views: 68.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-10 12:04:52 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started POST "/pages/1/mercury_update" for 127.0.0.1 at 2011-11-10 12:05:08 -0800
+  Processing by PagesController#mercury_update as JSON
+  Parameters: {"content"=>{"page_name"=>{"type"=>"editable", "value"=>"Article Basic"}, "page_content"=>{"type"=>"editable", "value"=>"<p></p><p>There are few movies that capture the frenetic, exciting, “anything is possible” feeling of summer vacation better than the Savage Steve Holland classic,&nbsp;<em>One Crazy Summer.</em>&nbsp;John Cusack, Demi Moore, and a whole bevy of weird and wonderful character actors star in this charmingly silly movie about the joys of summer: love, friendship and Godzilla costumes.</p><p><em>One Crazy Summer&nbsp;</em>tells the story of Hoops McCann (John Cusack), an aspiring animator and, despite his name, terrible athlete. His friend, George Calamari (Joel Murray), invites Hoops to spend the summer with him after their high school graduation at his grandmother’s home in Nantucket. Hoops is reluctant as he needs time to complete his application film to the Rhode Island School of Design: an animated love story. Unfortunately for Hoops, he has no real experience with love, a fact that soon changes when he runs into Cassandra Eldridge (Demi Moore) a young, rebellious singer, who catches his fancy.</p><p></p><ul><li>Bullet Point 1</li><li>Bullet Point 2</li><li>Bullet Point 3</li></ul><div><table border=\"1\" cellspacing=\"3\">\n<tbody>\n<tr>\n<td rowspan=\"2\">Some Data Here</td>\n<td>Heading 1</td>\n<td>Heading 2</td>\n</tr>\n<tr>\n<td>Data 1</td>\n<td>Data 2</td>\n</tr>\n</tbody>\n</table></div><p></p><p>His situation complicates however, when he discovers that Cassandra’s house in Nantucket is about to be demolished by the Beckersteads, a nasty, real-estate obsessed family, to make room for another of their Lobster Log restaurant. Hoops and a motley gang of misfits, including the Stork Brothers, Egg and Clay (Bobcat Goldthwait and Tom Villard), and a nervous army brat, Ack Ack Raymond (Curtis Armstrong), must join together to save Cassandra’s house and Hoop’s film.</p><p></p><p></p>"}}, "id"=>"1"}
+  [1m[35mPage Load (0.2ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 3.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2011-11-10 12:05:08 -0800
+  Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" 
+Rendered pages/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2011-11-10 12:05:08 -0800
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mercury_overrides.css?body=1" for 127.0.0.1 at 2011-11-10 12:05:08 -0800
+Served asset /mercury_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2011-11-10 12:05:08 -0800
+Served asset /pages.css - 304 Not Modified (0ms)
